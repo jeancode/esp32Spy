@@ -2,6 +2,8 @@
 
 Este proyecto permite la captura y transmisión de datos de audio en tiempo real desde un dispositivo basado en ESP32 hacia una computadora. En la computadora, los datos son procesados, reproducidos, y guardados en un archivo `.wav`.
 
+
+![]("./ESP32IMAGE.webp")
 ## Descripción General
 
 Este repositorio contiene dos partes principales:
