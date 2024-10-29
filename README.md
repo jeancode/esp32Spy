@@ -23,4 +23,4 @@ Este repositorio contiene dos partes principales:
 
 Instala las dependencias en Python con:
 ```bash
-pip install pyaudio numpy matplotlib
+pip install pyaudio numpy
