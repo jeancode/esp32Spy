@@ -3,7 +3,7 @@ import socket
 import pyaudio
 import numpy as np
 import wave
-import matplotlib.pyplot as plt
+
 
 # Definir la dirección IP y el puerto UDP para la comunicación
 UDP_IP = "0.0.0.0"
@@ -60,6 +60,18 @@ while True:
     if ord(chr(data[0])) == ord('q'):
         break
 
+    #muestra algunos datos para visulizar que se esta resividno
+    #print(f"Recibiendo datos de audio de {addr} -_samples: {samples.shape}")
+
+    #muestra  3 valores en formato HEX
+    print(f"Valores HEX: {' | '.join(f'{b:#04x}' for b in data[0:10])}")
+
+
+
+
+
+
+
 # Detener y cerrar el flujo de audio de salida
 stream.stop_stream()
 stream.close()
@@ -69,4 +81,5 @@ p.terminate()
 
 # Cerrar el archivo de salida WAV
 wf.close()
+
 
