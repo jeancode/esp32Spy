@@ -1,4 +1,4 @@
-# Proyecto de Captura y Procesamiento de Audio vía UDP
+# Esp32 spy Captura y Procesamiento de Audio vía UDP
 
 Este proyecto permite la captura y transmisión de datos de audio en tiempo real desde un dispositivo basado en ESP32 hacia una computadora. En la computadora, los datos son procesados, reproducidos, y guardados en un archivo `.wav`.
 
