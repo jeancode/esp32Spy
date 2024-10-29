@@ -19,8 +19,7 @@ Este repositorio contiene dos partes principales:
    - `pyaudio`
    - `numpy`
    - `wave`
-   - `matplotlib` (opcional, si se desea realizar una visualización)
-
+   - 
 Instala las dependencias en Python con:
 ```bash
 pip install pyaudio numpy
